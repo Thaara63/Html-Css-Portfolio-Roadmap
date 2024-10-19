@@ -100,14 +100,13 @@ nav a{
 main{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 6rem;
 }
 
 section{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 6rem;
 
 }
 
@@ -398,6 +397,11 @@ footer p{
 
     main{
         margin-right: auto;
+        gap:1rem;
+    }
+
+    section{
+        padding-top: 6rem;
     }
 
     .sticky-header{
